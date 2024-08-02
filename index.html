@@ -35,10 +35,15 @@
         }
 
         .text {
-            font-size: 20px;
+            font-size: 25px;
             font-family: cursive;
             text-align: center;
             color: rgb(85, 32, 134);
+        }
+        .price{
+            font: 15px;
+            text-align: center;
+            color: black;
         }
 
         .btn-buy {
@@ -74,10 +79,11 @@
 
 <body>
     <p class="title"><u>Welcome to flower shopsy</u></p>
+    
     <div class="product-card">
         <img src="img.webp" class="img-flower" />
         <h1 class="text">Flower bouquet</h1>
-
+        <p class="price">Price : ₹350/-</p>
         <div class="quantity-btn-container">
             <img src="minus.png" class="btn-quantity" onclick="handleQuantity('dec')" />
 
